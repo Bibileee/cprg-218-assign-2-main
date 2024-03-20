@@ -7,34 +7,13 @@
     <link rel="stylesheet" type="text/css" href="styles/reset.css" />
     <link rel="stylesheet" type="text/css" href="styles/fonts.css" />
     <link rel="stylesheet" type="text/css" href="styles/global.css" />
-    <link rel="stylesheet" type="text/css" href="styles/lab_four_starter.css" />
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
 
     <title>Common Website Features</title>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
 
-    <style>
-      .backgroundImage {
-        width: 100%;
-        aspect-ratio: 16/9;
-        height: auto;
-        display: block;
-      }
-
-      .backgroundHeading {
-        position: absolute;
-        align-items: center;
-        top: 0;
-        color: #f1f1f1;
-        width: 100%;
-        height: 50%;
-        color: white;
-        padding-top: 25%;
-        text-align: center;
-      }
-    </style>
   </head>
   <body>
     <section class="hero-container">
@@ -47,10 +26,10 @@
         />
         <div class="backgroundHeading">
           <h1>Bee Happy Bakery</h1>
-          <p>Healthy Recipes for You</p>
+          <h2>Healthy Recipes for You</h2>
           <h2>Open Hour</h2>
           <p>Mon-Fri 7:00AM-6:00PM<br>
-             Sat-sun 8:00AM-5:00PM</p>
+            Sat-sun 8:00AM-5:00PM</p>
         </div>
         <div class="backgroundText"></div>
       </div>
@@ -133,14 +112,43 @@
         allowfullscreen
       ></iframe>
       </div>
-    </section>
+
+    </section
+    >
+  <section class="container accordion-container">
+    <h2>Click to expand and see more about our best seller</h2>
+    <button class="accordion">Nok-cha Bread</button>
+    <div class="panel">
+      <p>
+        'Nok-cha' means green tea in korean.
+        Savor the unique fusion of flavors with our Green Tea Bread, a soft, moist loaf infused with the subtle aroma and taste of premium green tea.
+        This bread offers a gentle sweetness, making it a perfect companion for your afternoon tea or coffee.
+      </p>
+    </div>
+
+    <button class="accordion">Hongkong Egg Tart</button>
+    <div class="panel">
+      <p>
+        Experience a classic delight with our Hong Kong Egg Tarts, featuring a flaky, buttery crust filled with a silky, 
+        smooth egg custard that's just the right amount of sweet. 
+        Each bite takes you on a journey to the bustling streets of Hong Kong.
+      </p>
+    </div>
+
+    <button class="accordion">Signature Cheese Cake</button>
+    <div class="panel">
+      <p>
+        Indulge in the rich and creamy sensation of our Signature Cheese Cake, a velvety dessert that balances the tang of cream cheese with a sweet, 
+        crumbly base. It's a timeless treat that's sure to satisfy any cheesecake aficionado.
+    </div>
+  </section>
 
     <section class="footer-container">
       <div class="footer">
         <div class="footer-column info">
           <h3>Contact Information</h3>
-          <p>Danbi Lee</p>
-          <p>Address: Sait, Calgary</p>
+          <p>Bee Happy Bakery</p>
+          <p>Address: Downtown, Calgary</p>
           <p>Phone: +1 587-123-4567</p>
           <p>Email: bibi@example.com</p>
         </div>
@@ -148,15 +156,15 @@
           <h3>Quick Links</h3>
           <ul>
             <li><a href="#">Home ></a></li>
-            <li><a href="#">Interesting facts about dogs ></a></li>
-            <li><a href="#">Dog adoption centre ></a></li>
+            <li><a href="#">Special recipes ></a></li>
+            <li><a href="#">Interesting facts about us ></a></li>
           </ul>
         </div>
         <div class="footer-column map-container">
           <h3>Location</h3>
           <div class="footer-map">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80260.56728347734!2d-114.1840191812808!3d51.05045233181702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53716f9268a69e81%3A0xb1db5e68bd61e28!2sSouthern%20Alberta%20Institute%20of%20Technology!5e0!3m2!1sko!2sca!4v1709766551183!5m2!1sko!2sca"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20065.808264871608!2d-114.06806749999998!3d51.04891405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53716ffb86200597%3A0x10c42af1e7df241e!2z7JWM67KE7YOAIOy6mOqxsOumrCDri6TsmrTtg4DsmrQ!5e0!3m2!1sko!2sca!4v1710961677762!5m2!1sko!2sca"
               width="300"
               height="500"
               frameborder="0"
@@ -169,7 +177,7 @@
           </div>
         </div>
         <div class="footer-bottom">
-          &copy; 2024 Danbi Lee. All rights reserved.
+          &copy; 2024 Bee Happy Bakery. All rights reserved.
         </div>
       </div>
     </section>

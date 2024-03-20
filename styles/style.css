@@ -2,6 +2,32 @@ body {
   background-color: #dfd9b0;
 }
 
+.backgroundImage {
+  width: 100%;
+  aspect-ratio: 16/9;
+  height: auto;
+  display: block;
+}
+
+.backgroundHeading {
+  position: absolute;
+  align-items: center;
+  top: -20%;
+  color: #f1f1f1;
+  width: 100%;
+  height: 50%;
+  color: white;
+  padding-top: 25%;
+  text-align: center;
+}
+
+.backgroundHeading h1 {
+  font-size: 100px;
+  font-family: 'Madimi One', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .remove-assignment-content {
   font-family: 'Roboto', sans-serif;
   font-size: 2rem;
@@ -47,6 +73,12 @@ body {
   text-align: justify;
 }
 
+.intro-text h2 {
+  font-family: 'Madimi One', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .content-img {
   width: 400px; /* Adjust the width as needed */
   margin-right: 20px;
@@ -62,10 +94,9 @@ body {
 .video-container {
   display: block;
   margin-left: auto;
-  margin-right: 18%;
+  margin-right: 242px;
   width: 640px;
 }
-
 
 .video-container iframe {
   width: 50%;
@@ -78,9 +109,24 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vn;
+  font-size: 100px;
+  font-family: 'Madimi One', sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.card  {
+.card-container h2 {
+  font-size: 100px;
+  font-family: 'Madimi One', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.card-container p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
   border: 1px solid #f3940e;
   background-color: #f9f9f9;
   border-radius: 0.25rem;
@@ -90,7 +136,7 @@ body {
   width: 300px;
 }
 
-.card h2  {
+.card h2 {
   font-size: 20px;
   margin-bottom: 10px;
 }
@@ -106,8 +152,6 @@ body {
   border-radius: 0.25rem 0.25rem 0 0;
   height: auto;
   width: 100%;
-
-
 }
 /* Button styles */
 button {
@@ -125,8 +169,8 @@ button:hover {
 }
 
 .accordion-container {
-  background-color: #0eb77993;
-  height: 1000px;
+  background-color: #dfd9b0;
+  height: 250px;
 }
 
 /* Style the buttons that are used to open and close the accordion panel */
@@ -142,6 +186,13 @@ button:hover {
   border: none;
   outline: none;
   transition: background-color 0.4s ease;
+}
+
+.accordion-container h2 {
+  font-size: 30px;
+  font-family: 'Madimi One', sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* Change the background color of the button on hover */
