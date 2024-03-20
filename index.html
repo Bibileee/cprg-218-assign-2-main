@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles/reset.css" />
+    <link rel="stylesheet" type="text/css" href="styles/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="styles/global.css" />
+    <link rel="stylesheet" type="text/css" href="styles/lab_four_starter.css" />
+
+    <title>Common Website Features</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    />
+
+    <style>
+      .backgroundImage {
+        width: 100%;
+        aspect-ratio: 16/9;
+        height: auto;
+        display: block;
+      }
+
+      .backgroundHeading {
+        position: absolute;
+        align-items: center;
+        top: 0;
+        color: #f1f1f1;
+        width: 100%;
+        height: 50%;
+        color: white;
+        padding-top: 25%;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="hero-container">
+      <!-- Remove and add hero banner HTML -->
+      <div class="overlay">
+        <img
+          src="assets/hero.jpg"
+          class="backgroundImage"
+          alt="backgroundImage"
+        />
+        <div class="backgroundHeading">
+          <h1>Bee Happy Bakery</h1>
+          <p>Healthy Recipes for You</p>
+          <h2>Open Hour</h2>
+          <p>Mon-Fri 7:00AM-6:00PM<br>
+             Sat-sun 8:00AM-5:00PM</p>
+        </div>
+        <div class="backgroundText"></div>
+      </div>
+    </section>
+    <section class="container content-container">
+      <!-- Content HTML -->
+      <div class="content">
+        <div>
+          <img
+            class="content-img"
+            src="assets/Content.jpg"
+            alt="French Bulldog"
+          />
+        </div>
+        <div class="intro-text">
+          <h2>Our Story</h2>
+          <p>
+            Welcome to <i>Bee Happy Bakery</i>, a place where traditional baking meets modern finesse.<br>
+            Our bakery was founded in 1990, born from a passion for authentic, handcrafted bread and pastries.<br>
+            From our humble beginnings in the heart of Calgary, we have grown into a beloved institution,<br>
+            serving the community with freshly baked goods that warm the soul.<br>
+
+            <br>Our founder started with a simple mission: to bring the artisanal baking techniques to Calgary.<br>
+            With recipes passed down through generations and a commitment to quality ingredients,<br> 
+            <i>Bee Happy Bakery</i> quickly became more than just a bakery; it became a story of family, tradition, and community.
+          </p>
+          <h2>Group Orders</h2>
+          <p>
+            At <i>Bee Happy Bakery</i>, we believe in sharing the joy of freshly baked goods.<br>
+            Whether you're planning a corporate event, a family gathering, or a community celebration,<br>
+            our bakery is here to cater to your needs with our selection of handcrafted bread, pastries, and cakes.
+          </p>
+          <h2>How to Order</h2>
+          <p>
+            To order from <i>Bee Happy Bakery</i>, please explore our menu and select your desired items.<br>
+            Contact us by email or phone with your choices at least 3 days in advance.<br> 
+            Specify any dietary restrictions or custom requests. Orders can be picked up at our bakery or delivered.<br> 
+            For large or special orders, direct contact is encouraged to ensure we meet all your needs.
+          </p>
+        </div>
+        <a>
+          <button>More</button>
+        </a>
+      </div>
+    </section>
+    <section class="card-container">
+      <div class="card">
+        <img
+        src="assets/Dessert.jpg"
+        alt="Dessert"
+      />
+        <h2>Dessert</h2>
+        <p>Fresh bread made every morning</p>
+      </div>
+      <div class="card">
+        <img
+        src="assets/Gluten-Free.jpg"
+        alt="Gluten-Free"
+      />
+        <h2>Gluten Free</h2>
+        <p>Gluten Free Menu</p>
+      </div>
+      <div class="card">
+        <img
+        src="assets/Coffee.jpg"
+        alt="Coffee"
+      />
+        <h2>Coffee</h2>
+        <p>All coffees can be decaffeinated</p>
+      </div>
+    </section>
+
+    <section class="video-container">
+        <iframe
+        class="youtube-video"
+        src="https://youtube.com/embed/4-bN7_fGwv4?si=oGGF0kZz9nGaSm69"
+        title="Baking ASMR"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+      </div>
+    </section>
+
+    <section class="footer-container">
+      <div class="footer">
+        <div class="footer-column info">
+          <h3>Contact Information</h3>
+          <p>Danbi Lee</p>
+          <p>Address: Sait, Calgary</p>
+          <p>Phone: +1 587-123-4567</p>
+          <p>Email: bibi@example.com</p>
+        </div>
+        <div class="footer-column links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Home ></a></li>
+            <li><a href="#">Interesting facts about dogs ></a></li>
+            <li><a href="#">Dog adoption centre ></a></li>
+          </ul>
+        </div>
+        <div class="footer-column map-container">
+          <h3>Location</h3>
+          <div class="footer-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80260.56728347734!2d-114.1840191812808!3d51.05045233181702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53716f9268a69e81%3A0xb1db5e68bd61e28!2sSouthern%20Alberta%20Institute%20of%20Technology!5e0!3m2!1sko!2sca!4v1709766551183!5m2!1sko!2sca"
+              width="300"
+              height="500"
+              frameborder="0"
+              style="border: 0"
+              allowfullscreen=""
+              aria-hidden="false"
+              tabindex="0"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          &copy; 2024 Danbi Lee. All rights reserved.
+        </div>
+      </div>
+    </section>
+
+    <script src="assets/scripts.js"></script>
+  </body>
+</html>
