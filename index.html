@@ -9,11 +9,11 @@
     <link rel="stylesheet" type="text/css" href="styles/global.css" />
     <link rel="stylesheet" type="text/css" href="styles/style.css" />
 
-    <title>Common Website Features</title>
+    <title>Bee Happy Bakery</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
   </head>
   <body>
     <section class="hero-container">
@@ -31,7 +31,7 @@
           <p>Mon-Fri 7:00AM-6:00PM<br>
             Sat-sun 8:00AM-5:00PM</p>
             <br>
-                <a href="#main"><img src="assets/Bee Happy Bakery Logo.jpg" alt="Bee Happy Bakery Logo" width="300px">
+                <a href="#main"><img class="logo" src="assets/Bee Happy Bakery Logo.jpg" alt="Bee Happy Bakery Logo">
                 </a>
         </div>
         <div class="backgroundText"></div>
@@ -65,20 +65,22 @@
             Whether you're planning a corporate event, a family gathering, or a community celebration,<br>
             our bakery is here to cater to your needs with our selection of handcrafted bread, pastries, and cakes.
           </p>
-          <h2>How to Order</h2>
-          <p>
-            To order from <i>Bee Happy Bakery</i>, please explore our menu and select your desired items.<br>
-            Contact us by email or phone with your choices at least 3 days in advance.<br> 
-            Specify any dietary restrictions or custom requests. Orders can be picked up at our bakery or delivered.<br> 
-            For large or special orders, direct contact is encouraged to ensure we meet all your needs.
-          </p>
         </div>
+          <div id="more">
+            <h2>How to Order</h2>
+            <p>
+              To order from <i>Bee Happy Bakery</i>, please explore our menu and select your desired items.<br>
+              Contact us by email or phone with your choices at least 3 days in advance.<br> 
+              Specify any dietary restrictions or custom requests. Orders can be picked up at our bakery or delivered.<br> 
+              For large or special orders, direct contact is encouraged to ensure we meet all your needs.
+            </p>
+          </div>
         <a>
-          <button>More</button>
+          <button id="moreBtn">More</button>
         </a>
       </div>
     </section>
-    <section class="card-container">
+    <section class="container card-container">
       <div class="card">
         <img
         src="assets/Dessert.jpg"
@@ -105,7 +107,7 @@
       </div>
     </section>
 
-    <section class="video-container">
+    <section class="container video-container">
         <iframe
         class="youtube-video"
         src="https://youtube.com/embed/4-bN7_fGwv4?si=oGGF0kZz9nGaSm69"
@@ -120,7 +122,8 @@
     >
   <section class="container accordion-container">
     <h2>Click to expand and see more about our best seller</h2>
-    <button class="accordion">Nok-cha Bread</button>
+    <button class="accordion"><span class="material-symbols-outlined">
+      add </span>Nok-cha Bread</button>
     <div class="panel">
       <p>
         'Nok-cha' means green tea in korean.
@@ -129,7 +132,8 @@
       </p>
     </div>
 
-    <button class="accordion">Hongkong Egg Tart</button>
+    <button class="accordion"><span class="material-symbols-outlined">
+      add </span>Hongkong Egg Tart</button>
     <div class="panel">
       <p>
         Experience a classic delight with our Hong Kong Egg Tarts, featuring a flaky, buttery crust filled with a silky, 
@@ -138,7 +142,8 @@
       </p>
     </div>
 
-    <button class="accordion">Signature Cheese Cake</button>
+    <button class="accordion"><span class="material-symbols-outlined">
+      add </span>Signature Cheese Cake</button>
     <div class="panel">
       <p>
         Indulge in the rich and creamy sensation of our Signature Cheese Cake, a velvety dessert that balances the tang of cream cheese with a sweet, 
@@ -146,7 +151,7 @@
     </div>
   </section>
 
-    <section class="footer-container">
+    <section class="container footer-container">
       <div class="footer">
         <div class="footer-column info">
           <h3>Contact Information</h3>
