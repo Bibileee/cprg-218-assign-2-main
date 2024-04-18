@@ -5,6 +5,11 @@ body {
   margin: 0;
 }
 
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .backgroundImage {
   width: 100%;
   aspect-ratio: 16/9;
